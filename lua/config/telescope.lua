@@ -28,8 +28,6 @@ require('telescope').setup{
         no_ignore = true,
         no_ignore_parent = true,
         search_dirs ={
-            "/data/data/com.termux/files/home/storage/project/javaProjects/Utar-Smart-Metro-Ticketing-System/data/",
-            "/data/data/com.termux/files/home/storage/project/javaProjects/Utar-Smart-Metro-Ticketing-System/sample-data/",
             -- vim.fs.dirname(vim.api.nvim_buf_get_name(0),
             vim.fn.expand('%:p:h'),
         }
